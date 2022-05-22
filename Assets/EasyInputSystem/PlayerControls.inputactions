@@ -1,0 +1,71 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "adacdb8d-54d3-43e4-b886-6be0fb16dad9",
+            "actions": [
+                {
+                    "name": "LeftJoystick",
+                    "type": "Value",
+                    "id": "2e250afa-8afd-46f7-b1d6-86bfb45e044f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ButtonExample",
+                    "type": "Button",
+                    "id": "bba057d1-49b6-4ab3-9159-7cc975fd3e09",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightJoystick",
+                    "type": "Value",
+                    "id": "57f89a67-59a3-42c3-8d10-9df2ac149811",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "46bd35f7-0b8a-4438-859d-e310adb0b9eb",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftJoystick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "396aa8bd-7858-45d5-a44f-52f264c87b93",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonExample",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "786479d4-f242-4668-8ac8-6ee70045a95a",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightJoystick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
